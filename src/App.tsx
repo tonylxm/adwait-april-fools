@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* <Confetti /> */}
+      <Confetti />
       <img
         src={adwait}
         className="adwait footer-animation__image footer-animation__image--1"
