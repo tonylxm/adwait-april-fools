@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import confetti from "https://cdn.skypack.dev/canvas-confetti@1.3.2";
+import confetti from "canvas-confetti";
 
 const Confetti = () => {
   const [isActive, setIsActive] = useState<boolean>(false);
@@ -80,10 +80,10 @@ const Confetti = () => {
       }
     };
 
-    frame();
+    const animationFrameId = requestAnimationFrame(frame);
 
     return () => {
-      cancelAnimationFrame(frame);
+      cancelAnimationFrame(animationFrameId);
     };
   }, []);
 
