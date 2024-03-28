@@ -20,6 +20,14 @@ function App() {
         </a>{" "}
         team &lt;3
       </h2>
+
+      <div className="hit-counter">
+        <img
+          src="https://hitwebcounter.com/counter/counter.php?page=12293692&style=0025&nbdigits=6&type=page&initCount=0"
+          title="Counter Widget"
+          alt="Visit counter For Websites"
+        />
+      </div>
     </>
   );
 }

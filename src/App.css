@@ -17,3 +17,7 @@
   -webkit-user-select: none;
   -ms-user-select: none;
 }
+
+.hit-counter {
+  opacity: 0;
+}
