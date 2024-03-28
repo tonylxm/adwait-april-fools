@@ -1,12 +1,12 @@
 import sesaLogo from "./assets/sesa.png";
 import adwait from "./assets/adwait.svg";
-import Confetti from "./Confetti";
+// import Confetti from "./Confetti";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Confetti />
+      {/* <Confetti /> */}
       <img
         src={adwait}
         className="adwait footer-animation__image footer-animation__image--1"
