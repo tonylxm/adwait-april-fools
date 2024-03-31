@@ -9,6 +9,7 @@ function App() {
       <Confetti />
       <img
         src={adwait}
+        height={300}
         className="adwait footer-animation__image footer-animation__image--1"
         alt="Adwait"
       />
@@ -19,15 +20,15 @@ function App() {
           <img src={sesaLogo} className="logo" alt="SESA logo" height={40} />
         </a>{" "}
         team &lt;3
+        
+        <div className="hit-counter">
+          <img
+            src="https://hitwebcounter.com/counter/counter.php?page=12293692&style=0025&nbdigits=6&type=page&initCount=0"
+            title="Counter Widget"
+            alt="Visit counter For Websites"
+          />
+        </div>
       </h2>
-
-      <div className="hit-counter">
-        <img
-          src="https://hitwebcounter.com/counter/counter.php?page=12293692&style=0025&nbdigits=6&type=page&initCount=0"
-          title="Counter Widget"
-          alt="Visit counter For Websites"
-        />
-      </div>
     </>
   );
 }
